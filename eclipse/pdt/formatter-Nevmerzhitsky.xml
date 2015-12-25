@@ -426,13 +426,13 @@
 			value="false" />
 		<setting
 			id="org.eclipse.php.formatter.core.formatter.insert_space_before_colon_in_case"
-			value="true" />
+			value="false" />
 		<setting
 			id="org.eclipse.php.formatter.core.formatter.insert_space_before_colon_in_conditional"
 			value="true" />
 		<setting
 			id="org.eclipse.php.formatter.core.formatter.insert_space_before_colon_in_default"
-			value="true" />
+			value="false" />
 		<setting
 			id="org.eclipse.php.formatter.core.formatter.insert_space_before_coloncolon_in_field_access"
 			value="false" />
