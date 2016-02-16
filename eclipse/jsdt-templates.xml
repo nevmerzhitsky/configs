@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javaScript" deleted="false" description="" enabled="true" name="cd">console.dir(${cursor});</template><template autoinsert="true" context="javaScript" deleted="false" description="" enabled="true" name="cl">console.log(${cursor});</template><template autoinsert="true" context="javaScript" deleted="false" description="" enabled="true" name="ct">console.time('${tag}');
-${cursor}console.timeEnd('${tag}');</template></templates>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template autoinsert="true" context="javaScript" deleted="false"
+		description="" enabled="true" name="cd">console.dir(${cursor});</template>
+	<template autoinsert="true" context="javaScript" deleted="false"
+		description="" enabled="true" name="cl">console.log(${cursor});</template>
+	<template autoinsert="true" context="javaScript" deleted="false"
+		description="" enabled="true" name="ct">console.time('${tag}');
+		${cursor}console.timeEnd('${tag}');
+	</template>
+</templates>
