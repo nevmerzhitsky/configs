@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template autoinsert="true" context="php" deleted="false"
+		description="Dump variable content to stdout." enabled="true" name="pp">print_r($$${});
+	</template>
+	<template autoinsert="true" context="php" deleted="false"
+		description="Dump variable content to stdout. And die." enabled="true"
+		name="ppp">$$dbg = print_r($$${VAR}, true); echo "&lt;pre&gt;\${VAR}:
+		{$$dbg}&lt;/pre&gt;";${cursor}die('DEBUG');</template>
+</templates>
